@@ -1,0 +1,46 @@
+---
+title: "HTB: CAP (Retired)"
+date: 2026-01-21
+categories: [HTB, Linux]
+tags: [Enumeration, SMB, PrivEsc]
+---
+
+## 🖥️ Machine Information
+- **Name:** Lame
+- **Difficulty:** Easy
+- **OS:** Linux
+- **Status:** Retired
+
+---
+
+## 🔍 Enumeration
+Initial enumeration revealed exposed network services. Service version detection highlighted outdated components worth further investigation.
+
+---
+
+## 🧠 Vulnerability Analysis
+An outdated service version was identified with publicly known security weaknesses. Reviewing documentation helped understand the impact.
+
+---
+
+## 🚪 Initial Access
+By abusing the identified weakness, a low-privileged shell was obtained on the target system.
+
+---
+
+## 👑 Privilege Escalation
+Local enumeration uncovered misconfigurations that allowed privilege escalation to the highest level.
+
+---
+
+## 🧰 Tools Used
+- Nmap
+- Searchsploit
+- Netcat
+
+---
+
+## 📚 Lessons Learned
+- Enumeration should never be rushed
+- Reading exploit source code improves understanding
+- Legacy services are high risk
